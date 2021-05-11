@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body
+{
+    background-color: #1240AB;
+}
+
+h1
+{
+    color: #5777C0;
+}
+h2
+{
+    color: #365BB0;
+}
+p
+{
+    color: #ffffff;
+}
+img
+{
+    align-self: center;
+}
+a
+{
+    color: #365BB0;
+}
