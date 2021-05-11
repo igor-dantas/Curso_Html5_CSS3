@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas:font-size:
+            cm, mm, in(polegada), px(pixel), (pt(ponto), pc(paica)uso em papel impresso)
+
+            medidas relativas:
+            em(tamanho do m maiusculo), ex(tamanho do x minusculo), rem, vw(view width), vh(view height)
+
+            16px = 1em
+            recomendação oficial: em e px: .;
+            */
+            font-size: 1em;
+            /*lighter normal bold bolder / 100-900*/
+        }
+        h1
+        {
+            /* Shorthand font
+            font-style -> font-weight -> font-size -> font-family
+
+            font-style: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2
+        {
+            font: bold 2em 'Work Sans';
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam cum ab consequuntur. Id, eum nisi quos aliquid esse, velit dolor qui totam earum ratione vitae mollitia? Eaque nesciunt nam earum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sapiente necessitatibus officiis culpa vitae excepturi, error minus amet vero cum, quod labore suscipit! Exercitationem et officia quia amet suscipit ipsum.</p>
+    <h2>Subtítulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum eaque tenetur voluptatum repudiandae ratione omnis eligendi excepturi? Ea nostrum, praesentium libero officiis reiciendis at eius error pariatur? Illo, tenetur deserunt.</p>
+    
+</body>
+</html>
